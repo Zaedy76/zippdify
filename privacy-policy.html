@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Zippdify - Free PDF & Image Tools</title>
+    <meta name="description" content="Privacy Policy for Zippdify - Your data security is our priority. Learn how we protect your information when using our free PDF and image tools.">
+    <meta name="keywords" content="privacy policy, data security, PDF tools privacy, image tools privacy, online security">
+    <link rel="canonical" href="https://www.zippdify.online/privacy-policy">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #4361ee;
+            --primary-dark: #3a56d4;
+            --secondary: #7209b7;
+            --success: #06d6a0;
+            --warning: #ff9800;
+            --danger: #ef476f;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --light-gray: #e9ecef;
+            --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+            --border-radius: 8px;
+        }
+
+        [data-theme="dark"] {
+            --light: #121212;
+            --dark: #f8f9fa;
+            --light-gray: #1e1e1e;
+            --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            transition: var(--transition);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .logo i {
+            font-size: 2rem;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        nav a:hover, nav a.active {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .dropdown {
+            position: relative;
+        }
+        
+        .dropdown > a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+            min-width: 220px;
+            padding: 10px 0;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+        }
+        
+        [data-theme="dark"] .dropdown-menu {
+            background: var(--light-gray);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .dropdown:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 20px;
+            color: var(--dark);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-size: 0.95rem;
+        }
+        
+        [data-theme="dark"] .dropdown-menu a {
+            color: var(--dark);
+        }
+        
+        .dropdown-menu a:hover {
+            background: rgba(67, 97, 238, 0.1);
+            padding-left: 25px;
+        }
+        
+        .dropdown-menu a i {
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+        }
+        
+        .dropdown-toggle {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .dropdown-toggle i {
+            font-size: 0.8rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .dropdown:hover .dropdown-toggle i {
+            transform: rotate(180deg);
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+        .theme-toggle:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Page Header */
+        .page-header {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            background: linear-gradient(rgba(67, 97, 238, 0.1), rgba(114, 9, 183, 0.1));
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-header p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: var(--gray);
+        }
+
+        /* Privacy Content */
+        .privacy-content {
+            padding: 3rem 0;
+            flex: 1;
+        }
+
+        .privacy-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Table of Contents */
+        .toc-container {
+            background: rgba(67, 97, 238, 0.05);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            border-left: 4px solid var(--primary);
+        }
+
+        [data-theme="dark"] .toc-container {
+            background: rgba(67, 97, 238, 0.1);
+        }
+
+        .toc-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+            font-size: 1.2rem;
+        }
+
+        .toc-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .toc-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0.5rem 0;
+        }
+
+        .toc-item a {
+            color: var(--dark);
+            text-decoration: none;
+            transition: var(--transition);
+            font-weight: 500;
+        }
+
+        [data-theme="dark"] .toc-item a {
+            color: var(--dark);
+        }
+
+        .toc-item a:hover {
+            color: var(--primary);
+            padding-left: 5px;
+        }
+
+        .toc-number {
+            width: 24px;
+            height: 24px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Privacy Sections */
+        .privacy-section {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--card-shadow);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            transition: var(--transition);
+        }
+
+        [data-theme="dark"] .privacy-section {
+            background: var(--light-gray);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid rgba(67, 97, 238, 0.1);
+        }
+
+        .section-number {
+            width: 36px;
+            height: 36px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        .section-content {
+            color: var(--dark);
+        }
+
+        [data-theme="dark"] .section-content {
+            color: var(--dark);
+        }
+
+        .section-content p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+
+        .section-content ul, .section-content ol {
+            margin: 1rem 0 1rem 2rem;
+            line-height: 1.7;
+        }
+
+        .section-content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background: rgba(67, 97, 238, 0.05);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--primary);
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: rgba(67, 97, 238, 0.1);
+        }
+
+        .highlight-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 0.8rem;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* Key Points */
+        .key-points {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .key-point {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: var(--card-shadow);
+            transition: var(--transition);
+            border-top: 4px solid var(--success);
+        }
+
+        [data-theme="dark"] .key-point {
+            background: var(--light-gray);
+        }
+
+        .key-point:hover {
+            transform: translateY(-5px);
+        }
+
+        .key-point i {
+            font-size: 2rem;
+            color: var(--success);
+            margin-bottom: 1rem;
+        }
+
+        .key-point h3 {
+            margin-bottom: 0.8rem;
+            color: var(--success);
+            font-size: 1.2rem;
+        }
+
+        .key-point p {
+            color: var(--gray);
+            font-size: 0.95rem;
+        }
+
+        /* Last Updated */
+        .last-updated {
+            background: rgba(67, 97, 238, 0.05);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            text-align: center;
+            margin-top: 3rem;
+            font-style: italic;
+            color: var(--gray);
+        }
+
+        [data-theme="dark"] .last-updated {
+            background: rgba(67, 97, 238, 0.1);
+        }
+
+        /* Contact Info */
+        .contact-info {
+            background: rgba(6, 214, 160, 0.05);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        [data-theme="dark"] .contact-info {
+            background: rgba(6, 214, 160, 0.1);
+        }
+
+        .contact-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 1rem;
+            color: var(--success);
+            font-size: 1.3rem;
+        }
+
+        .contact-details {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .contact-detail {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--gray);
+        }
+
+        .contact-detail i {
+            color: var(--success);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 3rem 0 1.5rem;
+            margin-top: auto;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer-about p {
+            margin-bottom: 1.5rem;
+            color: #adb5bd;
+            font-size: 0.95rem;
+        }
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            background: var(--primary);
+            transform: translateY(-3px);
+        }
+        .footer-links h3, .footer-contact h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        .footer-links h3::after, .footer-contact h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--primary);
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-links a {
+            color: #adb5bd;
+            text-decoration: none;
+            transition: var(--transition);
+            font-size: 0.95rem;
+        }
+
+        .footer-links a:hover {
+            color: white;
+            padding-left: 5px;
+        }
+
+        .footer-contact p {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 0.8rem;
+            color: #adb5bd;
+            font-size: 0.95rem;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #adb5bd;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .page-header h1 {
+                font-size: 2rem;
+            }
+
+            .page-header p {
+                font-size: 1rem;
+            }
+
+            .privacy-section {
+                padding: 1.5rem;
+            }
+
+            .section-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+            }
+
+            .toc-list {
+                grid-template-columns: 1fr;
+            }
+
+            .key-points {
+                grid-template-columns: 1fr;
+            }
+
+            /* Mobile dropdown adjustments */
+            .dropdown-menu {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                padding: 0;
+                background: transparent;
+                display: none;
+            }
+            
+            .dropdown.active .dropdown-menu {
+                display: block;
+            }
+            
+            .dropdown.active .dropdown-toggle i {
+                transform: rotate(180deg);
+            }
+            
+            .dropdown-menu a {
+                padding: 8px 10px 8px 30px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .privacy-container {
+                padding: 0;
+            }
+            
+            .section-title {
+                font-size: 1.3rem;
+            }
+            
+            .contact-details {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="/" class="logo">
+                <i class="fas fa-file-pdf"></i>
+                <span>Zippdify</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    
+                    <!-- PDF Tools Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            <span>PDF Tools</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="/tools/image-to-pdf.html"><i class="fas fa-file-image"></i> Image to PDF</a>
+                            <a href="/tools/merge-pdf.html"><i class="fas fa-object-group"></i> Merge PDFs</a>
+                            <a href="/tools/split-pdf.html"><i class="fas fa-cut"></i> Split PDF</a>
+                            <a href="/tools/compress-pdf.html"><i class="fas fa-compress-alt"></i> Compress PDF</a>
+                        </div>
+                    </li>
+                    
+                    <!-- Image Tools Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            <span>Image Tools</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="/tools/converttojpg.html"><i class="fas fa-exchange-alt"></i> Convert to JPG</a>
+                            <a href="/tools/resize-image.html"><i class="fas fa-expand-alt"></i> Resize Images</a>
+                            <a href="/tools/compress-image.html"><i class="fas fa-compress-alt"></i> Compress Images</a>
+                            <a href="/tools/image-watermark.html"><i class="fas fa-tint"></i> Add Watermark</a>
+                        </div>
+                    </li>
+                    
+                    <li><a href="/privacy-policy.html" class="active">Privacy</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Privacy Policy</h1>
+            <p>Your privacy is important to us. Learn how Zippdify protects your information when using our free online tools.</p>
+        </div>
+    </section>
+
+    <!-- Privacy Content -->
+    <section class="privacy-content">
+        <div class="container privacy-container">
+            <!-- Table of Contents -->
+            <div class="toc-container">
+                <h3 class="toc-title">
+                    <i class="fas fa-list-ol"></i> Table of Contents
+                </h3>
+                <ul class="toc-list">
+                    <li class="toc-item">
+                        <div class="toc-number">1</div>
+                        <a href="#introduction">Introduction</a>
+                    </li>
+                    <li class="toc-item">
+                        <div class="toc-number">2</div>
+                        <a href="#information-collection">Information We Don't Collect</a>
+                    </li>
+                    <li class="toc-item">
+                        <div class="toc-number">3</div>
+                        <a href="#file-processing">File Processing & Security</a>
+                    </li>
+                    <li class="toc-item">
+                        <div class="toc-number">4</div>
+                        <a href="#cookies">Cookies & Tracking</a>
+                    </li>
+                    <li class="toc-item">
+                        <div class="toc-number">5</div>
+                        <a href="#third-party">Third-Party Services</a>
+                    </li>
+                    <li class="toc-item">
+                        <div class="toc-number">6</div>
+                        <a href="#children-privacy">Children's Privacy</a>
+                    </li>
+                    <li class="toc-item">
+                        <div class="toc-number">7</div>
+                        <a href="#policy-changes">Policy Changes</a>
+                    </li>
+                    <li class="toc-item">
+                        <div class="toc-number">8</div>
+                        <a href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Key Points -->
+            <div class="key-points">
+                <div class="key-point">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>100% Client-Side</h3>
+                    <p>All processing happens in your browser. Files never leave your device.</p>
+                </div>
+                <div class="key-point">
+                    <i class="fas fa-user-secret"></i>
+                    <h3>No Data Collection</h3>
+                    <p>We don't collect personal information or track your usage.</p>
+                </div>
+                <div class="key-point">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>No File Storage</h3>
+                    <p>Your files are processed temporarily and deleted immediately.</p>
+                </div>
+            </div>
+
+            <!-- Introduction -->
+            <div class="privacy-section" id="introduction">
+                <div class="section-header">
+                    <div class="section-number">1</div>
+                    <h2 class="section-title">Introduction</h2>
+                </div>
+                <div class="section-content">
+                    <p>Welcome to Zippdify ("we," "our," or "us"). We are committed to protecting your privacy and providing a secure experience when using our online PDF and image processing tools. This Privacy Policy explains how we handle information when you use our services.</p>
+                    
+                    <div class="highlight-box">
+                        <h4 class="highlight-title">
+                            <i class="fas fa-info-circle"></i> Important Notice
+                        </h4>
+                        <p>Zippdify is designed with privacy as a core principle. Unlike many online services, we process all files directly in your browser using client-side JavaScript. This means your files never leave your device and are never uploaded to our servers.</p>
+                    </div>
+                    
+                    <p>By using Zippdify, you acknowledge that you have read and understood this Privacy Policy. If you do not agree with our practices, please do not use our services.</p>
+                </div>
+            </div>
+
+            <!-- Information We Don't Collect -->
+            <div class="privacy-section" id="information-collection">
+                <div class="section-header">
+                    <div class="section-number">2</div>
+                    <h2 class="section-title">Information We Don't Collect</h2>
+                </div>
+                <div class="section-content">
+                    <p>At Zippdify, we believe in minimal data collection. Here's what we <strong>do not</strong> collect:</p>
+                    
+                    <ul>
+                        <li><strong>Personal Information:</strong> We don't ask for or collect your name, email address, phone number, or any other personally identifiable information.</li>
+                        <li><strong>Account Data:</strong> Our services don't require registration, so we don't create user accounts or store login credentials.</li>
+                        <li><strong>Payment Information:</strong> All our tools are completely free, so we never process payments or collect financial information.</li>
+                        <li><strong>File Content:</strong> Your uploaded files are processed entirely in your browser and are never transmitted to our servers.</li>
+                        <li><strong>Usage Patterns:</strong> We don't track which tools you use, how often you use them, or your browsing patterns.</li>
+                    </ul>
+                    
+                    <p>The only information we might temporarily process is:</p>
+                    
+                    <ol>
+                        <li>Basic browser information (user agent) for compatibility purposes</li>
+                        <li>IP address (anonymized and not stored) for basic security monitoring</li>
+                        <li>Cookies only for essential functionality (see Cookie Policy below)</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- File Processing & Security -->
+            <div class="privacy-section" id="file-processing">
+                <div class="section-header">
+                    <div class="section-number">3</div>
+                    <h2 class="section-title">File Processing & Security</h2>
+                </div>
+                <div class="section-content">
+                    <p>This is the most important section for understanding how Zippdify protects your files:</p>
+                    
+                    <h3>Client-Side Processing Architecture</h3>
+                    <p>All file processing occurs directly in your web browser using JavaScript. This client-side architecture provides several security benefits:</p>
+                    
+                    <ul>
+                        <li><strong>No Server Uploads:</strong> Files are never transmitted to our servers or any third-party servers.</li>
+                        <li><strong>Immediate Deletion:</strong> Once you close the browser tab or refresh the page, all file data is permanently deleted from memory.</li>
+                        <li><strong>End-to-End Privacy:</strong> Your files never leave the privacy of your own device.</li>
+                        <li><strong>No Storage:</strong> We don't have servers to store your files, so there's no risk of data breaches involving your documents.</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <h4 class="highlight-title">
+                            <i class="fas fa-lock"></i> Security Features
+                        </h4>
+                        <p><strong>Memory-Only Processing:</strong> Files are loaded into your browser's memory (RAM) for processing and are never written to disk on our systems. When the processing is complete, the memory is released.</p>
+                        <p><strong>No Backups:</strong> Since files aren't stored, there are no backups or archives containing your data.</p>
+                        <p><strong>SSL Encryption:</strong> Our website uses HTTPS with SSL encryption to secure the transmission of the webpage itself, though file data doesn't need to be transmitted.</p>
+                    </div>
+                    
+                    <h3>Technical Implementation</h3>
+                    <p>We use modern web technologies that operate entirely within the browser sandbox:</p>
+                    
+                    <ul>
+                        <li><strong>JavaScript Libraries:</strong> Tools like PDF-Lib.js, jsPDF, and Canvas API run locally in your browser.</li>
+                        <li><strong>Web Workers:</strong> Heavy processing is handled in separate threads to prevent browser freezing.</li>
+                        <li><strong>Memory Management:</strong> We implement proper memory cleanup to ensure no residual data remains.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cookies & Tracking -->
+            <div class="privacy-section" id="cookies">
+                <div class="section-header">
+                    <div class="section-number">4</div>
+                    <h2 class="section-title">Cookies & Tracking</h2>
+                </div>
+                <div class="section-content">
+                    <p>We use minimal cookies for essential functionality only:</p>
+                    
+                    <h3>Essential Cookies</h3>
+                    <ul>
+                        <li><strong>Theme Preference:</strong> Stores your dark/light mode preference locally on your device.</li>
+                        <li><strong>Session Management:</strong> Basic session cookies that expire when you close your browser.</li>
+                    </ul>
+                    
+                    <h3>What We Don't Use</h3>
+                    <ul>
+                        <li><strong>No Tracking Cookies:</strong> We don't use Google Analytics, Facebook Pixel, or any other tracking cookies.</li>
+                        <li><strong>No Advertising Cookies:</strong> We don't serve ads, so there are no advertising cookies.</li>
+                        <li><strong>No Third-Party Cookies:</strong> We don't embed content that would set third-party cookies.</li>
+                    </ul>
+                    
+                    <h3>Browser Local Storage</h3>
+                    <p>We use browser local storage (not cookies) for:</p>
+                    
+                    <ul>
+                        <li>Remembering your theme preference (dark/light mode)</li>
+                        <li>Temporarily storing file lists during processing (deleted when you leave the page)</li>
+                    </ul>
+                    
+                    <p>You can clear this data at any time through your browser settings, and it won't affect the functionality of our tools.</p>
+                </div>
+            </div>
+
+            <!-- Third-Party Services -->
+            <div class="privacy-section" id="third-party">
+                <div class="section-header">
+                    <div class="section-number">5</div>
+                    <h2 class="section-title">Third-Party Services</h2>
+                </div>
+                <div class="section-content">
+                    <p>Zippdify uses a few third-party services for essential functionality:</p>
+                    
+                    <h3>Content Delivery Networks (CDNs)</h3>
+                    <p>We use CDNs to deliver library files for better performance:</p>
+                    
+                    <ul>
+                        <li><strong>Font Awesome:</strong> For icons (loaded from cdnjs.cloudflare.com)</li>
+                        <li><strong>JavaScript Libraries:</strong> PDF-Lib, jsPDF, QRCode.js (loaded from cdnjs.cloudflare.com)</li>
+                        <li><strong>Fonts:</strong> Web fonts for typography</li>
+                    </ul>
+                    
+                    <p>These CDNs may collect basic usage statistics (like any website visit), but they don't receive any information about your files or specific tool usage.</p>
+                    
+                    <h3>No Data Sharing</h3>
+                    <p>We do not share, sell, rent, or trade any user information with third parties for their commercial purposes. Since we don't collect personal data, there's nothing to share.</p>
+                    
+                    <h3>External Links</h3>
+                    <p>Our website may contain links to external sites. We are not responsible for the privacy practices or content of these external sites. We encourage you to review their privacy policies.</p>
+                </div>
+            </div>
+
+            <!-- Children's Privacy -->
+            <div class="privacy-section" id="children-privacy">
+                <div class="section-header">
+                    <div class="section-number">6</div>
+                    <h2 class="section-title">Children's Privacy</h2>
+                </div>
+                <div class="section-content">
+                    <p>Our services are not directed to children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+                    
+                    <p>If you are a parent or guardian and believe that your child has provided us with personal information, please contact us immediately. If we become aware that we have collected personal information from children without verification of parental consent, we will take steps to remove that information.</p>
+                    
+                    <p>Since we don't collect personal information and all processing happens client-side, the risk of children's data being collected is minimal.</p>
+                </div>
+            </div>
+
+            <!-- Policy Changes -->
+            <div class="privacy-section" id="policy-changes">
+                <div class="section-header">
+                    <div class="section-number">7</div>
+                    <h2 class="section-title">Changes to This Privacy Policy</h2>
+                </div>
+                <div class="section-content">
+                    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+                    
+                    <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+                    
+                    <div class="highlight-box">
+                        <h4 class="highlight-title">
+                            <i class="fas fa-bell"></i> Notification of Changes
+                        </h4>
+                        <p>While we don't collect email addresses to send notifications, we will make significant changes prominent on our website for at least 30 days before they take effect.</p>
+                    </div>
+                    
+                    <p>If we make material changes to this policy, we will place a prominent notice on our website and update the revision date below.</p>
+                </div>
+            </div>
+
+            <!-- Contact Us -->
+            <div class="privacy-section" id="contact-us">
+                <div class="section-header">
+                    <div class="section-number">8</div>
+                    <h2 class="section-title">Contact Us</h2>
+                </div>
+                <div class="section-content">
+                    <p>If you have any questions or concerns about this Privacy Policy, please contact us:</p>
+                    
+                    <div class="contact-info">
+                        <h3 class="contact-title">
+                            <i class="fas fa-envelope"></i> Contact Information
+                        </h3>
+                        <p>We welcome your questions, comments, and concerns about privacy. Please contact us at:</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail">
+                                <i class="fas fa-envelope"></i>
+                                <span>pinjarisarif93@gmail.com</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-globe"></i>
+                                <span>www.zippdify.online</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Nani Daman 396210, IN</span>
+                            </div>
+                        </div>
+                        
+                        <p style="margin-top: 1.5rem;">We aim to respond to all inquiries within 48 hours.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Last Updated -->
+            <div class="last-updated">
+                <p><i class="fas fa-clock"></i> <strong>Last Updated:</strong> March 15, 2025</p>
+                <p>This Privacy Policy was last revised on the date indicated above and is effective immediately.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>Zippdify</span>
+                    </div>
+                    <p>Free online PDF and image tools to convert, merge, and process your documents without registration. All tools are secure and respect your privacy.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>PDF Tools</h3>
+                    <ul>
+                        <li><a href="/tools/image-to-pdf.html">Image to PDF</a></li>
+                        <li><a href="/tools/merge-pdf.html">Merge PDFs</a></li>
+                        <li><a href="/tools/split-pdf.html">Split PDF</a></li>
+                        <li><a href="/tools/compress-pdf.html">Compress PDF</a></li>
+                        <li><a href="/tools/rotate-rearrange-pdf.html">Compress PDF</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Image Tools</h3>
+                    <ul>
+                        <li><a href="/tools/convert-to-jpg.html">Convert to JPG</a></li>
+                        <li><a href="/tools/resize-image.html">Resize Images</a></li>
+                        <li><a href="/tools/compress-image.html">Compress Images</a></li>
+                        <li><a href="/tools/image-watermark.html">Add Watermark</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>More</h3>
+                    <ul>
+                        <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> pinjarisarif93@gmail.com</p>
+                    <p><i class="fas fa-globe"></i> www.zippdify.online</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Nani Daman 396210, IN</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 Zippdify. All rights reserved. | <a href="privacy-policy.html" style="color: #adb5bd; text-decoration: none;">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = themeToggle.querySelector('i');
+        
+        // Check for saved theme preference
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.setAttribute('data-theme', 'dark');
+            themeIcon.classList.remove('fa-moon');
+            themeIcon.classList.add('fa-sun');
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            if (document.body.getAttribute('data-theme') === 'dark') {
+                document.body.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            } else {
+                document.body.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            }
+        });
+        
+        // Mobile dropdown functionality
+        document.querySelectorAll('.dropdown').forEach(dropdown => {
+            if (window.innerWidth <= 768) {
+                const toggle = dropdown.querySelector('.dropdown-toggle');
+                
+                toggle.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    dropdown.classList.toggle('active');
+                    
+                    // Close other dropdowns when opening one
+                    document.querySelectorAll('.dropdown').forEach(other => {
+                        if (other !== dropdown) {
+                            other.classList.remove('active');
+                        }
+                    });
+                });
+            }
+        });
+        
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.dropdown') && window.innerWidth <= 768) {
+                document.querySelectorAll('.dropdown').forEach(dropdown => {
+                    dropdown.classList.remove('active');
+                });
+            }
+        });
+        
+        // Smooth scrolling for table of contents links
+        document.querySelectorAll('.toc-item a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Highlight current section in view
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // You could add active class styling here if desired
+                    // For now, we'll just log for debugging
+                    console.log('Section in view:', entry.target.id);
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all privacy sections
+        document.querySelectorAll('.privacy-section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
