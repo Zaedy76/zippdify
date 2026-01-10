@@ -1,52 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>https://zippdify-tools.netlify.app/</loc>
-  <lastmod>2026-01-04T14:15:21+00:00</lastmod>
-  <priority>1.00</priority>
+  <loc>http://zippdify-tools.netlify.app/</loc>
 </url>
 <url>
-  <loc>https://zippdify-tools.netlify.app/tools/image-to-pdf</loc>
-  <lastmod>2026-01-04T14:15:21+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://zippdify-tools.netlify.app/tools/image-to-pdf</loc>
 </url>
 <url>
-  <loc>https://zippdify-tools.netlify.app/tools/merge-pdf</loc>
-  <lastmod>2026-01-04T14:15:21+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://zippdify-tools.netlify.app/tools/merge-pdf</loc>
 </url>
 <url>
-  <loc>https://zippdify-tools.netlify.app/tools/split-pdf</loc>
-  <lastmod>2026-01-04T14:15:21+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://zippdify-tools.netlify.app/tools/split-pdf</loc>
 </url>
 <url>
-  <loc>https://zippdify-tools.netlify.app/tools/compress-pdf</loc>
-  <lastmod>2026-01-04T14:15:21+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://zippdify-tools.netlify.app/tools/compress-pdf</loc>
 </url>
 <url>
-  <loc>https://zippdify-tools.netlify.app/tools/rotate-rearrange-pdf</loc>
-  <lastmod>2026-01-04T14:15:21+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://zippdify-tools.netlify.app/tools/rotate-rearrange-pdf</loc>
 </url>
 <url>
-  <loc>https://zippdify-tools.netlify.app/tools/converttojpg</loc>
-  <lastmod>2026-01-04T14:15:21+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://zippdify-tools.netlify.app/tools/converttojpg</loc>
 </url>
 <url>
-  <loc>https://zippdify-tools.netlify.app/privacy-policy</loc>
-  <lastmod>2026-01-04T14:15:21+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://zippdify-tools.netlify.app/tools/resize-image.html</loc>
 </url>
-
-
+<url>
+  <loc>http://zippdify-tools.netlify.app/tools/compress-image.html</loc>
+</url>
+<url>
+  <loc>http://zippdify-tools.netlify.app/tools/image-watermark.html</loc>
+</url>
+<url>
+  <loc>http://zippdify-tools.netlify.app/privacy-policy</loc>
+</url>
+<url>
+  <loc>http://zippdify-tools.netlify.app/tools/convert-to-jpg.html</loc>
+</url>
+<url>
+  <loc>http://zippdify-tools.netlify.app/index.html</loc>
+</url>
+<url>
+  <loc></loc>
+</url>
 </urlset>
